@@ -1,19 +1,47 @@
-.main_title{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    width: 100vw;
+    height: 15vh;
+}
+
+header .main_title{
     text-align: center;
     color: red;
     font-weight: 900;
 }
 
-.subtitle{
+/* MAIN */
+main{
+    width: 100vw;
+    height: 75vh;
+}
+
+main .subtitle{
     color: green;
     border: 1px solid black;
 }
 
-.paragraph{
+main .paragraph{
     margin: 10px 30px;
 }
 
-.note{
+main .note{
     background-color: aliceblue;
     color: gray;
+}
+
+/* FOOTER */
+footer{
+    width: 100vw;
+    height: 10vh;
+}
+
+footer > span{
+    color: red;
 }
