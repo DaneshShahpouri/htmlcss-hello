@@ -1,10 +1,19 @@
-h1{
+.main_title{
     text-align: center;
     color: red;
     font-weight: 900;
 }
 
-h2{
+.subtitle{
     color: green;
     border: 1px solid black;
+}
+
+.paragraph{
+    margin: 10px 30px;
+}
+
+.note{
+    background-color: aliceblue;
+    color: gray;
 }
