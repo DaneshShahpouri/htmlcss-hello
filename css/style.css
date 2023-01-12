@@ -56,6 +56,12 @@ main .note{
     color: gray;
 }
 
+/* HELLO */
+.hello:hover > .paragraph::after{
+content: "ciao!";
+}
+
+
 /* FOOTER */
 footer{
     width: 100vw;
