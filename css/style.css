@@ -12,23 +12,43 @@ header{
 
 header .main_title{
     text-align: center;
-    color: red;
+    color: rgb(146, 21, 21);
     font-weight: 900;
+    padding: 10px
+}
+
+/* navbar */
+.navbar{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding:20px
+}
+
+.navbar > a{
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    padding: 0 20px;
+    border-left: 1px solid grey;
+}
+
+.navbar > a:hover{
+    color: white;
 }
 
 /* MAIN */
 main{
-    width: 100vw;
+    width: 90vw;
     height: 75vh;
+    margin: auto;
 }
 
 main .subtitle{
-    color: green;
+    color: rgb(204, 38, 38);
     border: 1px solid black;
+    padding: 10px;
 }
 
 main .paragraph{
-    margin: 10px 30px;
+    margin: 30px 40px;
 }
 
 main .note{
@@ -40,8 +60,9 @@ main .note{
 footer{
     width: 100vw;
     height: 10vh;
+    background-color: rgba(4, 9, 35, 0.7);
 }
 
 footer > span{
-    color: red;
+    color: rgb(219, 217, 217);
 }
